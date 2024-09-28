@@ -5,39 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>e-commerce</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
     <div id="navbar-container"></div>
     <div id="template-container"></div>
 
-    <script>
-        // Função para carregar o conteúdo da página
-        function loadPage(page) {
-            fetch(page)
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('template-container').innerHTML = data;
-                });
-        }
-
-        // Função para carregar o navbar
-        function loadNavbar() {
-            fetch('./../e-commerce/components/navbar/navbar.html')
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('navbar-container').innerHTML = data;
-                });
-        }
-
-        // Carrega o navbar e a página inicial por padrão
-        window.onload = function() {
-            loadNavbar();
-            loadPage('../e-commerce/pages/login/login.html');
-        };
-    </script>
-
-    <script src="./../e-commerce/node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="./../e-commerce/node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="./../e-commerce/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
