@@ -8,6 +8,7 @@ Para iniciar o projeto, siga os passos abaixo:
 
 1. **Instale a extensão Live Server no VS Code**:
    - Abra o Visual Studio Code.
+   - No terminal rodar o comando "npm install"
    - Vá para a aba de extensões (ícone de quadrado no lado esquerdo).
    - Procure por "Live Server" e instale a extensão desenvolvida por Ritwick Dey.
    - Após a instalação, clique com o botão direito no arquivo `index.html` e selecione "Open with Live Server".
