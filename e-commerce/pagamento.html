@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce - Pagamento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pagamento</h1>
+        <form id="pagamento-form" action="confirmacao.html">
+            <select name="bandeira" required>
+                <option value="">Selecione a bandeira do cartão</option>
+                <option value="visa">Visa</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="amex">American Express</option>
+            </select>
+            <input type="text" name="numero_cartao" placeholder="Número do Cartão" required>
+            <input type="text" name="data_expiracao" placeholder="Data de Expiração (MM/AA)" required>
+            <input type="text" name="codigo_seguranca" placeholder="Código de Segurança" required>
+            <button type="submit">Finalizar</button>
+        </form>
+    </div>
+
+
+</body>
+</html>

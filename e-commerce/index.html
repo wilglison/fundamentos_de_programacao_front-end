@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>e-commerce</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/main.css">
+    <title>E-commerce - Login</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="navbar-container"></div>
-    <div id="template-container"></div>
-
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="scripts/main.js"></script>
+    <div class="container">
+        <h1>Login</h1>
+        <form action="produtos.html">
+            <input type="text" id="usuario" name="usuario" placeholder="Usuário" required>
+            <input type="password" id="senha" name="senha" placeholder="Senha" required>
+            <button type="submit" id="confirmar">Confirmar</button>
+        </form>
+        <a href="cadastro.html" class="button" id="cadastrar">Cadastrar Novo Usuário</a>
+    </div>
 </body>
 </html>
