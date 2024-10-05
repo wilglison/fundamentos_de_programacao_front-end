@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade II</title>
+</head>
+<body>
+    <h1>Atividade II</h1>
+    
+    <button onclick="runTarefa(1)">Executar Tarefa 1</button>
+    <button onclick="runTarefa(2)">Executar Tarefa 2</button>
+    <button onclick="runTarefa(3)">Executar Tarefa 3</button>
+    <button onclick="runTarefa(4)">Executar Tarefa 4</button>
+    <button onclick="runTarefa(5)">Executar Tarefa 5</button>
+    <button onclick="runTarefa(6)">Executar Tarefa 6</button>
+
+    <div id="result"></div>
+
+    <script>
+        function runTarefa(tarefaNumber) {
+            document.getElementById('result').innerHTML = '';
+            let script = document.createElement('script');
+            script.src = `tarefa${tarefaNumber}.js`;
+            document.body.appendChild(script);
+        }
+    </script>
+</body>
+</html>
