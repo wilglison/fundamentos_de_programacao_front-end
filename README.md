@@ -4,10 +4,5 @@
 ## Disciplina: Fundamentos de Programação Front-end
 ### Professor: M.Sc. Reinaldo de Souza Júnior
 
-### **Equipe Cinza**
-- Alan Brilhante Coutinho
-- Arthur Vieira Guimarães
-- Caio Alexandre Oliveira Alves
-- Fabricio da Silva Pires
-- Lucas Araujo Ribeiro
+## Aluno:
 - Wilglison Rilniky Oliveira dos Santos
