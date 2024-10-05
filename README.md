@@ -1,4 +1,3 @@
-
 # Universidade Federal de Goiás
 ## Instituto de Informática
 ## Pós-Graduação: Desenvolvimento Web e Mobile – Full Stack 2024/2
